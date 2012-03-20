@@ -12,7 +12,7 @@ require.config({
 });
 
 
-require(['./mootools-core-1.4.5-full-nocompat-yc.js', 'configurator'], function (mootools, Configurator) {
+require(['configurator'], function (Configurator) {
 
     "use strict";
 
