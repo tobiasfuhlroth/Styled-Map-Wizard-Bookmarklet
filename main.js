@@ -6,14 +6,13 @@
 
 require.config({
     paths: {
-        'mootools': './mootools-core-1.4.5-full-nocompat-yc.js',
         'text': './text',
         'configurator': './configurator'
     }
 });
 
 
-require(['mootools', 'configurator'], function (mootools, Configurator) {
+require(['mootools-core-1.4.5-full-nocompat-yc.js', 'configurator'], function (mootools, Configurator) {
 
     "use strict";
 

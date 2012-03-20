@@ -3,7 +3,7 @@
  */
 
 
-define(['text!./configurator.html'], function (template) {
+define(['text!configurator.html'], function (template) {
 
     "use strict";
 
